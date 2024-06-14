@@ -113,7 +113,8 @@ return {
                             purple = "#9544f7"
                         }
                     end
-                }
+                },
+                ColorMyPencils('fluoromachine')
             )
         end
     },
