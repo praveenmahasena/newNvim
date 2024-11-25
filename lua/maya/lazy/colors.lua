@@ -78,8 +78,8 @@ return {
                     contrast = "hard", -- can be "hard", "soft" or empty string
                     palette_overrides = {},
                     overrides = {},
-                    dim_inactive = false,
-                    transparent_mode = false
+                    dim_inactive = true,
+                    transparent_mode = true
                 }
             )
         end
@@ -113,8 +113,7 @@ return {
                             purple = "#9544f7"
                         }
                     end
-                },
-                ColorMyPencils('fluoromachine')
+                }
             )
         end
     },
