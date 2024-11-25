@@ -1,5 +1,5 @@
 function ColorMyPencils(color)
-    color = color or "fluoromachine"
+    color = color or "tokyonight" or "fluoromachine"
     vim.cmd.colorscheme(color)
 
     vim.g.gruvbox_contrast_dark = "hard"
